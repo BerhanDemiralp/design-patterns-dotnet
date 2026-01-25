@@ -1,0 +1,6 @@
+@strategy_HostAddress = http://localhost:5277
+
+GET {{strategy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
