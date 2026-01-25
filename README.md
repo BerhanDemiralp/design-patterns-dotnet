@@ -16,14 +16,17 @@ Each pattern is implemented as an isolated mini-project and documented with:
 📁 Project: `src/Strategy.RecommendationsApi`  
 📖 Documentation:  
 ➡️ [Strategy Pattern – Recommendations API](src/Strategy.RecommendationsApi/README.md)
-
 Demonstrates runtime selection of different recommendation algorithms using the Strategy design pattern and Dependency Injection.
 
 ---
+### 2. Factory Pattern  
+📁 Project: `src/Factory.PaymentsApi`  
+📖 Documentation:  
+➡️ [Factory Method – Payments API](src/Factory.PaymentsApi/README.md)
+The factory receives all provider implementations via Dependency Injection and selects the correct one based on the provider name.
 
 ## Planned Patterns
 
-- Factory Pattern  
 - Decorator Pattern  
 - Command Pattern  
 - State Pattern  
