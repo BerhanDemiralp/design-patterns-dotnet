@@ -1,0 +1,6 @@
+@Decorator.CachingLoggingApi_HostAddress = http://localhost:5210
+
+GET {{Decorator.CachingLoggingApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
