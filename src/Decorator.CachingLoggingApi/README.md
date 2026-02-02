@@ -192,24 +192,3 @@ svc = new LoggingProductCatalogDecorator(svc, logger);
 - Caching wraps the core service
 
 This determines which behaviors execute first.
-
----
-
-## What This Demonstrates
-
-- Correct implementation of the Decorator Pattern
-- Composition over inheritance
-- Open/Closed Principle
-- Transparent layering of cross-cutting concerns
-- Real-world usage similar to ASP.NET Core middleware
-- Clean separation between core logic and additional behavior
-
----
-
-## Next Patterns
-
-This repository continues with:
-
-- Command Pattern — Background job handlers
-- State Pattern — Order lifecycle management
-- Observer Pattern — Event-driven notifications
