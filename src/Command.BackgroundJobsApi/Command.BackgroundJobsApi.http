@@ -1,0 +1,6 @@
+@Command.BackgroundJobsApi_HostAddress = http://localhost:5106
+
+GET {{Command.BackgroundJobsApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
